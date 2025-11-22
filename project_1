@@ -1,0 +1,73 @@
+#initialising dictionary
+student_grades = { } 
+
+#add a new student
+def add_student(name,grade):
+    student_grades[name] = grade
+    #[sagar] = 100
+    print(f"Added {name} with a {grade}")
+    # added sagar with 100
+
+# update a student
+def update_student(name,grade):
+    if name in student_grades:
+        student_grades[name] = grade
+        #sagar = 200
+        print(f"{name} with marks are updated {grade}")
+
+    else:
+        print(f"{name} is not found!")
+
+#delete a student
+def delete_student(name):
+    if name in student_grades:
+        del student_grades[name]
+        print(f"{name} has been succesfully deleted")
+    
+    else:
+        print(f"{name} is not found!")
+
+#view all students
+def display_all_students():
+    if student_grades:
+        for name, grade in student_grades.items():
+            print(f"{name} : {grade}")
+
+    else:
+        print("No students found/added")
+
+def main():
+    while True:
+        print("\n student grades management system")
+        print("1. Add a Student")
+        print("2. Update a Student")  
+        print("3. Delete a Student")  
+        print("4. View student")  
+        print("5. exit")  
+
+        choice = int(input("enter your choice = "))
+        if choice == 1:
+            name = input("enter student name = ")
+            grade = int(input("enter student grade = "))
+            add_student(name, grade)
+
+        elif choice == 2:
+            name = input("enter student name = ")
+            grade = int(input("enter student grade = "))
+            update_student(name,grade)
+        
+        elif choice == 3:
+            name = input("enter student name = ")
+            delete_student(name)
+
+        elif choice == 4:
+            display_all_students()
+
+        elif choice == 5:
+            print("closing the program....")
+            break
+
+        else:
+            print("invalid choice")   
+
+main()                         
