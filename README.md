@@ -41,7 +41,7 @@ Installation
 
 Clone the repository (or download the source code):
 
-git clone [https://github.com/your-username/student-grades-management.git](https://github.com/your-username/student-grades-management.git)
+git clone [https://github.com/Codeninjapy/python_1.git]
 
 
 Navigate to the project directory:
@@ -53,10 +53,7 @@ Running the Project
 
 Run the script using the python command:
 
-python grade_system.py
-
-
-(Note: Replace grade_system.py with whatever filename you saved your code as).
+python_1
 
 🧪 Instructions for Testing
 
