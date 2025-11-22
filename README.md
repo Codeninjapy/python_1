@@ -6,6 +6,7 @@ The Student Grades Management System is a lightweight, console-based Python appl
 
 This project serves as a practical implementation of Python fundamentals, including functions, loops, conditional statements, and data structures.
 
+
 🚀 Features
 
 The application offers a menu-driven interface with the following capabilities:
@@ -20,6 +21,7 @@ View All Students: Display a comprehensive list of all students and their grades
 
 Error Handling: Basic validation to handle invalid menu choices or attempts to modify non-existent students.
 
+
 🛠️ Technologies & Tools Used
 
 Language: Python 3.x
@@ -28,6 +30,7 @@ IDE/Editor: VS Code / PyCharm / IDLE (compatible with any Python editor)
 
 Interface: Command Line Interface (CLI)
 
+
 ⚙️ Steps to Install & Run
 
 Prerequisites
@@ -35,6 +38,7 @@ Prerequisites
 Ensure you have Python installed on your system. You can check this by running:
 
 python --version
+
 
 
 Installation
@@ -49,11 +53,13 @@ Navigate to the project directory:
 cd student-grades-management
 
 
+
 Running the Project
 
 Run the script using the python command:
 
 python_1
+
 
 🧪 Instructions for Testing
 
@@ -101,12 +107,14 @@ Try updating a name that doesn't exist (e.g., "Rahul").
 
 Result: Program should say "Rahul is not found!"
 
+
 📸 Screenshots / Demo
 
 
 <img width="711" height="455" alt="Screenshot (54)" src="https://github.com/user-attachments/assets/3c146b20-6f36-4308-bec2-5de9bb6a74ea" />
 <img width="721" height="556" alt="Screenshot (55)" src="https://github.com/user-attachments/assets/a3744400-5636-40b2-a0e0-29bba467d84d" />
 <img width="708" height="208" alt="Screenshot (56)" src="https://github.com/user-attachments/assets/d6777289-bbc6-4c35-9bd3-578fde646eb2" />
+
 
 Sample Output:
 
